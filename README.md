@@ -1,2 +1,2 @@
 # budget-Control
-Patient manager made with ReactJs + Vite + Normalize Css
+Patient manager made with ReactJs + Vite + Normalize Css.
