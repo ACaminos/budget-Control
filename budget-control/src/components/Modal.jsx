@@ -7,6 +7,7 @@ const Modal = ({setModal, animarModal, setAnimarModal, guardarGasto}) => {
     const [cantidad, setCantidad] = useState('')
     const [categoria, setCategoria] = useState('')
     const [mensaje, setMensaje] = useState('')
+    
     const ocultarModal = () => {
         setAnimarModal(false)
 
