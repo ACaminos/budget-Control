@@ -20,14 +20,15 @@ To run the project locally, follow these steps:
 ```sh
 git clone https://github.com/ACaminos/budget-Control.git
 ```
+2️⃣ Access the project directory:
 ```sh
 cd budget-Control
 ```
-2️⃣ Install the dependencies:
+3️⃣ Install the dependencies:
 ```sh
 npm install
 ```
-3️⃣ Start the development server:
+4️⃣ Start the development server:
 ```sh
 npm run dev
 ```
