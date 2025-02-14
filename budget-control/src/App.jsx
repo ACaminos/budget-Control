@@ -6,6 +6,8 @@ import ListadoGastos from './components/ListadoGastos';
 import { generarId } from './helpers/index.js';
 import IconoNuevoGasto from './img/nuevo-gasto.svg'
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   
   const [gastos, setGastos] = useState(
@@ -122,6 +124,8 @@ function App() {
           gastoEditar={gastoEditar}
           setGastoEditar={setGastoEditar}
            /> }
+           
+           <Analytics/>
     </div>
   )
 }
